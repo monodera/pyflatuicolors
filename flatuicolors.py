@@ -1,7 +1,6 @@
 """
 A Python module to import a hex color string from colors listed Flat UI Colors (http://flatuicolors.com/)
 """
-
 _flatuicolors = {
     'turquoise':       '#1abc9c',
     'greensea':        '#16a085',
@@ -26,7 +25,8 @@ _flatuicolors = {
 
 def pick(cname):
     try:
-        return _flatuicolors.get(cname)
+        cname_sanitized = cname.lower().replace(" ","")
+        return _flatuicolors.get(cname_sanitized)
     except:
         print 'No color %s is in flat ui colors.' % cname
         print 'Available colors are:'

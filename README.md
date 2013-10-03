@@ -6,6 +6,8 @@ pyflatuicolors is a python module to access to the flat UI colors.
 See [http://flatuicolors.com/](Flat UI Colors) for more details.
 
 ## Examples
+Put flatuicolors.py at any locations which are in `$PYTHONPATH`.
+
 ```python
     import flatuicolors
     

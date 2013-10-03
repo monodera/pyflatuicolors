@@ -36,3 +36,9 @@ def pick(cname):
 def list():
     for i in _flatuicolors.keys():
         print "  %-14s" % i
+
+def all_color_keys():
+    return _flatuicolors.keys()
+
+def all_color_values():
+    return _flatuicolors.values()

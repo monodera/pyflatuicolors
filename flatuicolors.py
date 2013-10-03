@@ -1,5 +1,5 @@
 """
-A Pytho module to import a hex color string from colors listed Flat UI Colors (http://flatuicolors.com/)
+A Python module to import a hex color string from colors listed Flat UI Colors (http://flatuicolors.com/)
 """
 
 _flatuicolors = {
